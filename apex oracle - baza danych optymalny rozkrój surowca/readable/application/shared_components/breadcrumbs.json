@@ -1,0 +1,170 @@
+[
+  {
+    "id":"19246623422197224058"
+   ,"Identification":{
+      "Name":"Breadcrumb"
+    }
+   ,"Entries":[
+      {
+        "id":"19246623669461224058"
+       ,"Identification":{
+          "Name":"Home"
+         ,"Page Number":"1"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"1"
+          }
+        }
+      }
+     ,{
+        "id":"19246928618685224304"
+       ,"Identification":{
+          "Name":"Magazyn Surowc\u00F3w"
+         ,"Page Number":"2"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+      }
+     ,{
+        "id":"19246933571462224398"
+       ,"Identification":{
+          "Name":"Wykonane ciecia dla klient\u00F3w"
+         ,"Page Number":"3"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:3:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"3"
+          }
+        }
+      }
+     ,{
+        "id":"19246938521028224524"
+       ,"Identification":{
+          "Name":"Historia Ciec"
+         ,"Page Number":"4"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:4:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"4"
+          }
+        }
+      }
+     ,{
+        "id":"19246943386422224649"
+       ,"Identification":{
+          "Name":"Klienci"
+         ,"Page Number":"5"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:5:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"5"
+          }
+        }
+      }
+     ,{
+        "id":"19246949390299224775"
+       ,"Identification":{
+          "Name":"Zamowienia klient\u00F3w"
+         ,"Page Number":"6"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:6:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"6"
+          }
+        }
+      }
+     ,{
+        "id":"19514219962234218599"
+       ,"Identification":{
+          "Name":"Dodaj_Klienta"
+         ,"Page Number":"9"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:9:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"9"
+          }
+        }
+      }
+     ,{
+        "id":"19722099583363331968"
+       ,"Identification":{
+          "Name":"Dodawanie_zamowienia"
+         ,"Page Number":"10"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"10"
+          }
+        }
+      }
+     ,{
+        "id":"19726020817083407031"
+       ,"Identification":{
+          "Name":"Dodawanie_surowc\u00F3w_do_magazynu"
+         ,"Page Number":"12"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:12:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"12"
+          }
+        }
+      }
+     ,{
+        "id":"19740760074458776419"
+       ,"Identification":{
+          "Name":"Panel_Sprzedawcy"
+         ,"Page Number":"13"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:13:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"13"
+          }
+        }
+      }
+    ]
+  }
+]

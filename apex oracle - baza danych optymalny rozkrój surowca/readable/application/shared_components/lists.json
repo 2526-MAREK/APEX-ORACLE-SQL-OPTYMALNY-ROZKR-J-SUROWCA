@@ -1,0 +1,530 @@
+[
+  {
+    "id":"19246623963044224059"
+   ,"Identification":{
+      "Name":"Navigation Menu"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"19246922214784224206"
+       ,"Label":{
+          "Label":"Home"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-home"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"1"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246923756440224208"
+       ,"Label":{
+          "Label":"Magazyn Surowc\u00F3w"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-package"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246929096511224304"
+       ,"Label":{
+          "Label":"Wykonane ciecia dla klient\u00F3w"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-tiles-8"
+        }
+       ,"Layout":{
+          "Sequence":30
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:3:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"3"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246933908950224398"
+       ,"Label":{
+          "Label":"Historia Ciec"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-table"
+        }
+       ,"Layout":{
+          "Sequence":40
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:4:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"4"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246938932416224524"
+       ,"Label":{
+          "Label":"Klienci"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-user-man"
+        }
+       ,"Layout":{
+          "Sequence":50
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:5:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"5"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246943779269224650"
+       ,"Label":{
+          "Label":"Zamowienia klient\u00F3w"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-table"
+        }
+       ,"Layout":{
+          "Sequence":60
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:6:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"6"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19514219082937218598"
+       ,"Label":{
+          "Label":"Dodaj_Klienta"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-file-o"
+        }
+       ,"Layout":{
+          "Sequence":70
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "9"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:9:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"9"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19722098638739331967"
+       ,"Label":{
+          "Label":"Dodawanie_zamowienia"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-file-o"
+        }
+       ,"Layout":{
+          "Sequence":80
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "10"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"10"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19726019997456407031"
+       ,"Label":{
+          "Label":"Dodawanie_surowc\u00F3w_do_magazynu"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-file-o"
+        }
+       ,"Layout":{
+          "Sequence":90
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "12"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:12:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"12"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19740759183451776418"
+       ,"Label":{
+          "Label":"Panel_Sprzedawcy"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-file-o"
+        }
+       ,"Layout":{
+          "Sequence":100
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "13"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:13:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"13"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"19246908763314224191"
+   ,"Identification":{
+      "Name":"Navigation Bar"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"19246976293521224834"
+       ,"Label":{
+          "Label":"\u0026APP_USER."
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-user"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"#"
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+         ,"2.":"has-username"
+        }
+      }
+     ,{
+        "id":"19246976729248224834"
+       ,"Label":{
+          "Label":"---"
+        }
+       ,"Layout":{
+          "Sequence":20
+         ,"Parent Entry":"\u0026APP_USER. (19246976293521224834)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"separator"
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+       ,"Server-side Condition":{
+          "Type":"User is Authenticated (not public)"
+        }
+      }
+     ,{
+        "id":"19246977108755224835"
+       ,"Label":{
+          "Label":"Sign Out"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-sign-out"
+        }
+       ,"Layout":{
+          "Sequence":30
+         ,"Parent Entry":"\u0026APP_USER. (19246976293521224834)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"\u0026LOGOUT_URL."
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+       ,"Server-side Condition":{
+          "Type":"User is Authenticated (not public)"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"19246973524645224832"
+   ,"Identification":{
+      "Name":"Page Navigation"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"19246973950626224833"
+       ,"Label":{
+          "Label":"Magazyn Surowc\u00F3w"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-package"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246974380675224833"
+       ,"Label":{
+          "Label":"Wykonane ciecia dla klient\u00F3w"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-tiles-8"
+        }
+       ,"Layout":{
+          "Sequence":30
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:3:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"3"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246974709359224833"
+       ,"Label":{
+          "Label":"Historia Ciec"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-table"
+        }
+       ,"Layout":{
+          "Sequence":40
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:4:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"4"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246975122346224833"
+       ,"Label":{
+          "Label":"Klienci"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-user-man"
+        }
+       ,"Layout":{
+          "Sequence":50
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:5:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"5"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"19246975592973224833"
+       ,"Label":{
+          "Label":"Zamowienia klient\u00F3w"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-table"
+        }
+       ,"Layout":{
+          "Sequence":60
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:6:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"6"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+    ]
+  }
+]

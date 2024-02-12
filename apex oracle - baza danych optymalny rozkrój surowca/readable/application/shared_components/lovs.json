@@ -1,0 +1,71 @@
+[
+  {
+    "id":"19246930214431224394"
+   ,"Identification":{
+      "Name":"SUROWCE.ID_BLATU"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"SUROWCE"
+    }
+   ,"Column Mapping":{
+      "Return":"ID_BLATU"
+     ,"Default Sort":"ID_BLATU"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"19246935365586224520"
+   ,"Identification":{
+      "Name":"CIECIA.ID_CIECIA"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"CIECIA"
+    }
+   ,"Column Mapping":{
+      "Return":"ID_CIECIA"
+     ,"Default Sort":"ID_CIECIA"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"19246935593097224521"
+   ,"Identification":{
+      "Name":"POZYCJE.ID_POZYCJI"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"POZYCJE"
+    }
+   ,"Column Mapping":{
+      "Return":"ID_POZYCJI"
+     ,"Default Sort":"ID_POZYCJI"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"19246944817067224772"
+   ,"Identification":{
+      "Name":"KLIENCI.IMIE"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"KLIENCI"
+    }
+   ,"Column Mapping":{
+      "Return":"ID_KLIENTA"
+     ,"Display":"IMIE"
+     ,"Default Sort":"IMIE"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+]

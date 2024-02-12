@@ -1,0 +1,518 @@
+{
+  "id":"9"
+ ,"Identification":{
+    "Name":"Dodaj_Klienta"
+   ,"Alias":"DODAJ-KLIENTA"
+   ,"Title":"Dodaj_Klienta"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":true
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"19471386638673002511"
+     ,"Identification":{
+        "Title":"Dodawanie Klienta"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Standard (19246726771998224104)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"19514219589197218598"
+     ,"Identification":{
+        "Title":"Breadcrumb"
+       ,"Type":"Breadcrumb"
+      }
+     ,"Source":{
+        "Breadcrumb":"Breadcrumb (19246623422197224058)"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_01"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Title Bar (19246739169916224109)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-BreadcrumbRegion--useBreadcrumbTitle"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Appearance":{
+          "Breadcrumb Template":"Breadcrumb (19246801919712224138)"
+         ,"Template Options":[
+            "#DEFAULT#"
+          ]
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"19471386774603002512"
+     ,"Identification":{
+        "Name":"P1_IMIE"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Imie"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"Leading and Trailing"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Dodawanie Klienta (19471386638673002511)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (19246797825851224136)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Item"
+       ,"Item":"P1_IMIE"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Storage":"Per Session (Persistent)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"19471386831000002513"
+     ,"Identification":{
+        "Name":"P1_NAZWISKO"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Nazwisko"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"Leading and Trailing"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Dodawanie Klienta (19471386638673002511)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (19246797825851224136)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Item"
+       ,"Item":"P1_NAZWISKO"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Storage":"Per Session (Persistent)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"19471386962677002514"
+     ,"Identification":{
+        "Name":"P1_ID_KLIENTA"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Region":"Dodawanie Klienta (19471386638673002511)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Item"
+       ,"Item":"P1_ID_KLIENTA"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"19471387099823002515"
+     ,"Identification":{
+        "Name":"P1_NUMER_TELEFONU"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Numer Telefonu"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"Leading and Trailing"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Dodawanie Klienta (19471386638673002511)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (19246797825851224136)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Item"
+       ,"Item":"P1_NUMER_TELEFONU"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Storage":"Per Session (Persistent)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"19471387196928002516"
+     ,"Identification":{
+        "Name":"P1_DATA_PRZYBYCIA"
+       ,"Type":"Date Picker"
+      }
+     ,"Label":{
+        "Label":"Data Przybycia"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Show Time":false
+       ,"Display As":"Popup"
+       ,"Minimum Date":"None"
+       ,"Maximum Date":"None"
+       ,"Multiple Months":"No"
+       ,"Use Defaults":true
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Dodawanie Klienta (19471386638673002511)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (19246797825851224136)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Format Mask":"YYYY-MM-DD"
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Storage":"Per Session (Persistent)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"19471387208163002517"
+     ,"Identification":{
+        "Button Name":"Dodaj_klienta"
+       ,"Label":"Dodaj Klienta"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Dodawanie Klienta (19471386638673002511)"
+       ,"Position":"CREATE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:15:\u0026SESSION.::\u0026DEBUG.::P2_ID_KLIENTA:\u0026P1_ID_KLIENTA."
+         ,"Page":"15"
+         ,"Values":{
+            "P2_ID_KLIENTA":"\u0026P1_ID_KLIENTA."
+          }
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"19471387381294002518"
+     ,"Identification":{
+        "Name":"New"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"Dodaj_klienta (19471387208163002517)"
+      }
+     ,"Actions":[
+        {
+          "id":"19471387438758002519"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"DECLARE\n  v_id_klienta klienci.id_klienta%TYPE;\n  v_value VARCHAR2(100);\nBEGIN\n  v_id_klienta := dodaj_klienta(\n    :P1_IMIE,\n    :P1_NAZWISKO,\n    :P1_NUMER_TELEFONU,\n    TO_DATE(:P1_DATA_PRZYBYCIA, \u0027YYYY-MM-DD\u0027)\n  );\n\n  -- Tu mo\u017Cesz zrobi\u0107 co\u015B z warto\u015Bci\u0105 zwr\u00F3con\u0105 przez funkcj\u0119, na przyk\u0142ad zapisz j\u0105 w ukrytym polu na stronie.\n --:P1_ID_KLIENTA := v_id_klienta;\n  APEX_UTIL.SET_SESSION_STATE(\n        p_name  =\u003E \u0027P1_ID_KLIENTA\u0027,\n        p_value =\u003E v_id_klienta\n    );\n\n    v_value := APEX_UTIL.GET_SESSION_STATE(\u0027P1_ID_KLIENTA\u0027);\n\n    DBMS_OUTPUT.PUT_LINE(\u0027P1_ID_KLIENTA\u0027 || v_value);\n    DBMS_OUTPUT.PUT_LINE(\u0027v_id_klienta\u0027 || v_id_klienta);\n\n\n -- IF :P1_ID_KLIENTA IS NULL THEN\n   -- RAISE_APPLICATION_ERROR(-20000, \u0027Warto\u015B\u0107 P1_ID_KLIENTA: \u0027 || NVL(:P2_ID_KLIENTA, \u0027NULL\u0027));\n--END IF;\n\n  -- APEX_UTIL.REDIRECT_URL(\u0027f?p=\u0027 || :APP_ID || \u0027:10:::NO:RP:P2_ID_KLIENTA:\u0027 || :P1_ID_KLIENTA);\nEND;"
+           ,"Items to Submit":[
+              "P1_IMIE"
+             ,null
+             ,"P1_NAZWISKO"
+             ,"P1_NUMER_TELEFONU"
+             ,"P1_DATA_PRZYBYCIA"
+            ]
+           ,"Items to Return":[
+              "P1_ID_KLIENTA"
+            ]
+           ,"Suppress Change Event":false
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New (19471387381294002518)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+      ]
+    }
+  ]
+ ,"Branches":[
+    {
+      "id":"19471388206348002527"
+     ,"Identification":{
+        "Name":"nowe_zamowienie"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+      }
+     ,"Behavior":{
+        "Type":"Page or URL (Redirect)"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:10:\u0026SESSION.::\u0026DEBUG.::P10_NEW:\u0026P1_ID_KLIENTA.\u0026success_msg=#SUCCESS_MSG#"
+         ,"Page":"10"
+         ,"Values":{
+            "P10_NEW":"\u0026P1_ID_KLIENTA."
+          }
+        }
+      }
+    }
+  ]
+}

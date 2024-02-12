@@ -1,0 +1,1027 @@
+{
+  "id":"13"
+ ,"Identification":{
+    "Name":"Panel_Sprzedawcy"
+   ,"Alias":"PANEL-SPRZEDAWCY"
+   ,"Title":"Panel_Sprzedawcy"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"CSS":{
+    "Inline":".my-highlight-class {\n    background-color: yellow; \/* lub dowolny inny kolor *\/\n}"
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"19694170555362151622"
+     ,"Identification":{
+        "Title":"Obs\u0142uga_Bazy_danych"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Standard (19246726771998224104)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"19740759678890776419"
+     ,"Identification":{
+        "Title":"Breadcrumb"
+       ,"Type":"Breadcrumb"
+      }
+     ,"Source":{
+        "Breadcrumb":"Breadcrumb (19246623422197224058)"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_01"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Title Bar (19246739169916224109)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-BreadcrumbRegion--useBreadcrumbTitle"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Appearance":{
+          "Breadcrumb Template":"Breadcrumb (19246801919712224138)"
+         ,"Template Options":[
+            "#DEFAULT#"
+          ]
+        }
+      }
+    }
+   ,{
+      "id":"23009550677863207603"
+     ,"Identification":{
+        "Title":"przyk\u0142ad_kolejnosci_ciecia"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cimg src=\"#APP_FILES#2.jpg\"\/\u003E"
+      }
+     ,"Layout":{
+        "Sequence":110
+       ,"Parent Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Standard (19246726771998224104)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"20852569889440706201"
+     ,"Identification":{
+        "Name":"ALGORYTM_WYKORZSTUJACY_POLE"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"CREATE"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"23009550444526207601"
+     ,"Identification":{
+        "Name":"WYBRANY_ALGORYTM"
+       ,"Type":"Display Only"
+      }
+     ,"Label":{
+        "Label":"Wybrany Algorytm"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Format":"Plain Text"
+       ,"Based On":"Item Value"
+       ,"Show Line Breaks":true
+       ,"Send On Page Submit":true
+      }
+     ,"Layout":{
+        "Sequence":100
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (19246797825851224136)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Function Body"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Function Body":"DECLARE\n  v_wybor_algorytmu VARCHAR2(32767);\nBEGIN\n  v_wybor_algorytmu := APEX_UTIL.GET_SESSION_STATE(\u0027ALGORYTM_WYKORZYSTUJACY_POLE\u0027);\n  RETURN \u0027SELECT \u0027\u0027\u0027 || :ALGORYTM_WYKORZSTUJACY_POLE || \u0027\u0027\u0027 AS my_value FROM dual\u0027;\nEND;"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"19694170621610151623"
+     ,"Identification":{
+        "Button Name":"Usun_Wszystkie_Dane_Z_Bazy_Danych"
+       ,"Label":"Usun Wszystkie Dane Z Bazy Danych"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"20523380207317516405"
+     ,"Identification":{
+        "Button Name":"Usun_Wszystko_Z_Bazy_Danych_Oprocz_Surowcow"
+       ,"Label":"Usun Wszystko Z Bazy Danych Oprocz Surowcow"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"20523380919796516412"
+     ,"Identification":{
+        "Button Name":"Dodaj_Klienta"
+       ,"Label":"Dodaj Klienta"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:9:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"9"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523381062345516413"
+     ,"Identification":{
+        "Button Name":"Dodaj_Surowiec_Do_Magazynu"
+       ,"Label":"Dodaj Surowiec Do Magazynu"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:12:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"12"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523381102843516414"
+     ,"Identification":{
+        "Button Name":"Dodaj_zamowienie_do_konkretnego_klienta"
+       ,"Label":"Dodaj Zamowienie Do Konkretnego Klienta"
+      }
+     ,"Layout":{
+        "Sequence":70
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:10:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"10"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523381297322516415"
+     ,"Identification":{
+        "Button Name":"Pokaz_Dostepne_Surowce_W_Magazynie"
+       ,"Label":"Pokaz Dostepne Surowce W Magazynie"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:7:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"7"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523381383247516416"
+     ,"Identification":{
+        "Button Name":"Pokaz_Wszystkie_Surowce_W_Magazynie"
+       ,"Label":"Pokaz Wszystkie Surowce W Magazynie"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:2:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"2"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523382027085516423"
+     ,"Identification":{
+        "Button Name":"Pokaz_wszystkie_wykonane_ciecia_dla_klientow"
+       ,"Label":"Pokaz Wszystkie Wykonane Ciecia Dla Klientow"
+      }
+     ,"Layout":{
+        "Sequence":90
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:3:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"3"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523383294647516435"
+     ,"Identification":{
+        "Button Name":"Pokaz_zamowienia_klientow"
+       ,"Label":"Pokaz Zamowienia Klientow"
+      }
+     ,"Layout":{
+        "Sequence":80
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:16:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"16"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20523383443458516437"
+     ,"Identification":{
+        "Button Name":"Pokaz_Klientow"
+       ,"Label":"Pokaz Klientow"
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:5:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"5"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"20852570109562706204"
+     ,"Identification":{
+        "Button Name":"WLACZ_ALGORYTM_WYKORZSTUJACY_POLE"
+       ,"Label":"Wlacz Algorytm Wykorzstujacy Pole"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"CREATE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"20852570226559706205"
+     ,"Identification":{
+        "Button Name":"WLACZ_ALGORYTM_WYKORZSTUJACY_DLUGOSC_BOKOW"
+       ,"Label":"Wlacz Algorytm Wykorzstujacy Dlugosc Bokow"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"CREATE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"21465943907759286701"
+     ,"Identification":{
+        "Button Name":"Wymus_Wykonanie_Ciec"
+       ,"Label":"Wymus Wykonanie Ciec"
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Region":"Obs\u0142uga_Bazy_danych (19694170555362151622)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":false
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (19246800375485224137)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"19694171137547151628"
+     ,"Identification":{
+        "Name":"New"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"Usun_Wszystkie_Dane_Z_Bazy_Danych (19694170621610151623)"
+      }
+     ,"Actions":[
+        {
+          "id":"19694171259720151629"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"BEGIN\n  -- Najpierw usu\u0144 dane z tabel, kt\u00F3re s\u0105 zale\u017Cne od innych\n  DELETE FROM historia_ciec;\n  DELETE FROM ciecia;\n  DELETE FROM pozycje;\n  \n  -- Nast\u0119pnie usu\u0144 dane z tabel, kt\u00F3re s\u0105 \u017Ar\u00F3d\u0142em dla kluczy obcych innych tabel\n  DELETE FROM surowce;\n  DELETE FROM klienci;\n  DELETE FROM POZYCJE_OCZEKUJACE;\n  \n  -- Na koniec mo\u017Cemy zresetowa\u0107 sekwencje, je\u015Bli s\u0105 u\u017Cywane\n  -- ... (tu instrukcje resetuj\u0105ce sekwencje)\n  \n  COMMIT;\nEXCEPTION\n  WHEN OTHERS THEN\n    ROLLBACK;\n    RAISE;\nEND;"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New (19694171137547151628)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"20523380381066516406"
+     ,"Identification":{
+        "Name":"New_4"
+      }
+     ,"Execution":{
+        "Sequence":50
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"Usun_Wszystko_Z_Bazy_Danych_Oprocz_Surowcow (20523380207317516405)"
+      }
+     ,"Actions":[
+        {
+          "id":"20523380410614516407"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"BEGIN\n  -- Najpierw usu\u0144 dane z tabel, kt\u00F3re s\u0105 zale\u017Cne od innych\n  DELETE FROM historia_ciec;\n  DELETE FROM ciecia;\n  DELETE FROM pozycje;\n  \n  -- Nast\u0119pnie usu\u0144 dane z tabel, kt\u00F3re s\u0105 \u017Ar\u00F3d\u0142em dla kluczy obcych innych tabel\n  DELETE FROM klienci;\n  DELETE FROM POZYCJE_OCZEKUJACE;\n  \n  -- Na koniec mo\u017Cemy zresetowa\u0107 sekwencje, je\u015Bli s\u0105 u\u017Cywane\n  -- ... (tu instrukcje resetuj\u0105ce sekwencje)\n  \n  COMMIT;\nEXCEPTION\n  WHEN OTHERS THEN\n    ROLLBACK;\n    RAISE;\nEND;"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_4 (20523380381066516406)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"20523380597480516408"
+     ,"Identification":{
+        "Name":"New_5"
+      }
+     ,"Execution":{
+        "Sequence":60
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"Usun_Wszystkie_Dane_Z_Bazy_Danych (19694170621610151623)"
+      }
+     ,"Actions":[
+        {
+          "id":"20523380633333516409"
+         ,"Identification":{
+            "Action":"Execute JavaScript Code"
+          }
+         ,"Settings":{
+            "Code":"apex.message.alert(\u0027Usuni\u0119to wszystkie dane z bazy danych.\u0027);"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_5 (20523380597480516408)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"20523380733360516410"
+     ,"Identification":{
+        "Name":"New_6"
+      }
+     ,"Execution":{
+        "Sequence":70
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"Usun_Wszystko_Z_Bazy_Danych_Oprocz_Surowcow (20523380207317516405)"
+      }
+     ,"Actions":[
+        {
+          "id":"20523380892362516411"
+         ,"Identification":{
+            "Action":"Execute JavaScript Code"
+          }
+         ,"Settings":{
+            "Code":"apex.message.alert(\u0027Usuni\u0119to wszystkie dane z bazy danych opr\u00F3cz surowc\u00F3w.\u0027);"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_6 (20523380733360516410)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"20852570315690706206"
+     ,"Identification":{
+        "Name":"New_1"
+      }
+     ,"Execution":{
+        "Sequence":80
+       ,"Event Scope":"Static"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.READY"
+      }
+     ,"Client-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"ALGORYTM_WYKORZSTUJACY_POLE"
+       ,"Value":"1"
+      }
+     ,"Actions":[
+        {
+          "id":"20852570461156706207"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"  BEGIN\n  APEX_UTIL.SET_SESSION_STATE(\n        p_name  =\u003E \u0027ALGORYTM_WYKORZSTUJACY_POLE\u0027,\n        p_value =\u003E 1\n    );\nEND;    \n"
+           ,"Items to Submit":[
+              "ALGORYTM_WYKORZSTUJACY_POLE"
+            ]
+           ,"Items to Return":[
+              "ALGORYTM_WYKORZSTUJACY_POLE"
+            ]
+           ,"Suppress Change Event":false
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_1 (20852570315690706206)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"20852570544243706208"
+     ,"Identification":{
+        "Name":"New_2"
+      }
+     ,"Execution":{
+        "Sequence":90
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"WLACZ_ALGORYTM_WYKORZSTUJACY_DLUGOSC_BOKOW (20852570226559706205)"
+      }
+     ,"Client-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"ALGORYTM_WYKORZSTUJACY_POLE"
+       ,"Value":"2"
+      }
+     ,"Actions":[
+        {
+          "id":"20852570697034706209"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"  BEGIN\n  APEX_UTIL.SET_SESSION_STATE(\n        p_name  =\u003E \u0027ALGORYTM_WYKORZSTUJACY_POLE\u0027,\n        p_value =\u003E 2\n    );\n\n    :ALGORYTM_WYKORZSTUJACY_POLE := 2;\nEND;    \n\n"
+           ,"Items to Submit":[
+              "ALGORYTM_WYKORZSTUJACY_POLE"
+            ]
+           ,"Items to Return":[
+              "ALGORYTM_WYKORZSTUJACY_POLE"
+            ]
+           ,"Suppress Change Event":false
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_2 (20852570544243706208)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+       ,{
+          "id":"21465944233027286704"
+         ,"Identification":{
+            "Action":"Execute JavaScript Code"
+          }
+         ,"Settings":{
+            "Code":"this.triggeringElement.classList.add(\"my-highlight-class\");"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"New_2 (20852570544243706208)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"21465944081481286702"
+     ,"Identification":{
+        "Name":"New_3"
+      }
+     ,"Execution":{
+        "Sequence":100
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"Wymus_Wykonanie_Ciec (21465943907759286701)"
+      }
+     ,"Actions":[
+        {
+          "id":"21465944195005286703"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"DECLARE\n    v_wybor_algorytmu NUMBER;\nBEGIN\n--pierwszy argument wybor algorytmu , drugi ilosc zamowien w sekwencji \n-- numer 1 algorytmu to jest r\u00F3znica p\u00F3l\n-- numer 2 algorytmu to jest r\u00F3\u017Cnica bok\u00F3w \n\n    v_wybor_algorytmu := APEX_UTIL.GET_SESSION_STATE(\u0027ALGORYTM_WYKORZSTUJACY_POLE\u0027);\n    uruchom_sekwencje_ciec(1, 10); \nEND;"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_3 (21465944081481286702)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"21465944347029286705"
+     ,"Identification":{
+        "Name":"New_7"
+      }
+     ,"Execution":{
+        "Sequence":110
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"WLACZ_ALGORYTM_WYKORZSTUJACY_POLE (20852570109562706204)"
+      }
+     ,"Client-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"ALGORYTM_WYKORZSTUJACY_POLE"
+       ,"Value":"1"
+      }
+     ,"Actions":[
+        {
+          "id":"21465944406614286706"
+         ,"Identification":{
+            "Action":"Execute Server-side Code"
+          }
+         ,"Settings":{
+            "Language":"PE.PROPERTY.SOURCE_SNIPPET_LANG.LOV.PLSQL.D"
+           ,"PL\/SQL Code":"DECLARE\n  v_wybor_algorytmu VARCHAR2(32767);\nBEGIN\n  -- Ustawiamy zmienn\u0105 sesyjn\u0105\n  APEX_UTIL.SET_SESSION_STATE(\n    p_name  =\u003E \u0027ALGORYTM_WYKORZYSTUJACY_POLE\u0027,\n    p_value =\u003E 1\n  );\n  :ALGORYTM_WYKORZSTUJACY_POLE := 1;\n    APEX_DEBUG.ENABLE(p_level =\u003E 6);\n  -- Odczytujemy zmienn\u0105 sesyjn\u0105\n  v_wybor_algorytmu := APEX_UTIL.GET_SESSION_STATE(\u0027ALGORYTM_WYKORZYSTUJACY_POLE\u0027);\n  APEX_DEBUG.MESSAGE(\u0027Warto\u015B\u0107 zmiennej sesyjnej ALGORYTM_WYKORZYSTUJACY_POLE: \u0027 || v_wybor_algorytmu);\nEND;"
+           ,"Items to Submit":[
+              "ALGORYTM_WYKORZSTUJACY_POLE"
+            ]
+           ,"Items to Return":[
+              "ALGORYTM_WYKORZSTUJACY_POLE"
+            ]
+           ,"Suppress Change Event":false
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"New_7 (21465944347029286705)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+           ,"Stop Execution On Error":true
+           ,"Wait For Result":true
+          }
+        }
+       ,{
+          "id":"21465944513412286707"
+         ,"Identification":{
+            "Action":"Execute JavaScript Code"
+          }
+         ,"Settings":{
+            "Code":"this.triggeringElement.classList.add(\"my-highlight-class\");"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"New_7 (21465944347029286705)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+}

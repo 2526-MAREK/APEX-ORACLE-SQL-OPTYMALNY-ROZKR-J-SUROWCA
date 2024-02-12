@@ -1,0 +1,268 @@
+{
+  "id":"97822"
+ ,"Identification":{
+    "Name":"Aplikacja optymalny rozkr\u00F3j surowca"
+   ,"Alias":"APLIKACJA-OPTYMALNY-ROZKR\u00D3J-SUROWCA"
+   ,"Version":"Release 1.0"
+  }
+ ,"Row Search":{
+    "Tokenize":true
+  }
+ ,"Availability":{
+    "Status":"Available with Developer Toolbar"
+   ,"Build Status":"Run and Build Application"
+  }
+ ,"Error Handling":{
+    "Default Display Location":"Inline with Field and in Notification"
+  }
+ ,"Report Printing":{
+    "Type":"Use Instance Settings"
+  }
+ ,"Advanced":{
+    "Friendly URLs":true
+   ,"Allow Feedback":true
+   ,"Logging":true
+   ,"Debugging":true
+   ,"Compatibility Mode":"21.2 \/ 22.1 \/ 22.2"
+   ,"Pass ECID":"Y"
+  }
+ ,"Authentication":{
+    "Public User":"APEX_PUBLIC_USER"
+   ,"Authentication Scheme":"Oracle APEX Accounts (19246623136333224058)"
+  }
+ ,"Authorization":{
+    "Source for Role or Group Schemes":"Access Control User Role Assignments"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Disabled"
+  }
+ ,"Session State Protection":{
+    "Enabled":true
+  }
+ ,"Security":{
+    "Deep Linking":"Disabled"
+   ,"Browser Cache":"Disabled"
+   ,"Embed in Frames":"Deny"
+   ,"Referrer Policy":"strict-origin"
+   ,"HTML Escaping Mode":"Extended"
+  }
+ ,"Database Session":{
+    "Parsing Schema":"WKSP_BAZADANYCHOPTYMALNYROZKRJSUROWCA"
+  }
+ ,"Globalization":{
+    "Primary Language":"English (en)"
+   ,"Document Direction":"Left-To-Right"
+   ,"Language Derived From":"Application Primary Language"
+   ,"Automatic Time Zone":false
+   ,"Automatic CSV Encoding":true
+  }
+ ,"Application Format Masks":{
+    "Date":"DS"
+   ,"Timestamp":"DS"
+   ,"Timestamp Time Zone":"DS"
+  }
+ ,"Character Value Comparison":{
+    "Behavior":"Database session NLS setting (default)"
+  }
+ ,"Logo":{
+    "Type":"Text"
+   ,"Text":"Aplikacja optymalny rozkr\u00F3j surowca"
+  }
+ ,"Progressive Web App":{
+    "Enable":true
+   ,"Installable":false
+   ,"Display":"Standalone"
+   ,"Screen Orientation":"Any"
+   ,"iOS Status Bar Style":"Default"
+   ,"Enable Push Notifications":false
+  }
+ ,"Navigation":{
+    "Home URL":{
+      "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+     ,"Page":"1"
+    }
+   ,"Login URL":{
+      "url":"f?p=\u0026APP_ID.:LOGIN:\u0026APP_SESSION.::\u0026DEBUG.:::"
+     ,"Page":"LOGIN"
+    }
+  }
+ ,"Navigation Menu":{
+    "List Template":"Side Navigation Menu (19246787965863224130)"
+   ,"Template Options":[
+      "#DEFAULT#"
+     ,"t-TreeNav--styleA"
+     ,"js-navCollapsed--hidden"
+    ]
+   ,"List Position":"Side"
+   ,"List":"Navigation Menu (19246623963044224059)"
+  }
+ ,"Navigation Bar":{
+    "Implementation":"List"
+   ,"List":"Navigation Bar (19246908763314224191)"
+   ,"List Template":"Navigation Bar (19246787593565224130)"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"JavaScript":{
+    "Include jQuery Migrate":false
+  }
+ ,"Attributes":{
+    "Theme":"Universal Theme (42)"
+   ,"Global Page":"0"
+   ,"Enable End Users to choose Theme Style":false
+   ,"Add \"Built with APEX\" to Footer":false
+  }
+ ,"Substitutions":[
+    {
+      "id":"1"
+     ,"Identification":{
+        "Name":"APP_NAME"
+      }
+     ,"Value":{
+        "Static Value":"Aplikacja optymalny rozkr\u00F3j surowca"
+      }
+    }
+  ]
+ ,"Component Settings":[
+    {
+      "id":"5085391055571388"
+     ,"Identification":{
+        "Name":"NATIVE_ADFBC"
+       ,"Type":"REST Data Source"
+      }
+     ,"Subscription":{
+        "Version Number":15492788132942
+      }
+    }
+   ,{
+      "id":"19246620136015224056"
+     ,"Identification":{
+        "Name":"NATIVE_COLOR_PICKER"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"FULL"
+       ,"Attribute 2":"POPUP"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246620470366224057"
+     ,"Identification":{
+        "Name":"NATIVE_DATE_PICKER_APEX"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"MONTH-PICKER:YEAR-PICKER:TODAY-BUTTON"
+       ,"Attribute 2":"VISIBLE"
+       ,"Attribute 3":"15"
+       ,"Attribute 4":"FOCUS"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246620757260224057"
+     ,"Identification":{
+        "Name":"NATIVE_GEOCODED_ADDRESS"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"RELAX_HOUSE_NUMBER"
+       ,"Attribute 2":"N"
+       ,"Attribute 3":"POPUP:ITEM"
+       ,"Attribute 4":"default"
+       ,"Attribute 6":"LIST"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246621006537224057"
+     ,"Identification":{
+        "Name":"NATIVE_SINGLE_CHECKBOX"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+       ,"Attribute 2":"N"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246621325669224057"
+     ,"Identification":{
+        "Name":"NATIVE_STAR_RATING"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"fa-star"
+       ,"Attribute 4":"#VALUE#"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246621665255224057"
+     ,"Identification":{
+        "Name":"NATIVE_YES_NO"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+       ,"Attribute 3":"N"
+       ,"Attribute 5":"SWITCH_CB"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246621927833224057"
+     ,"Identification":{
+        "Name":"NATIVE_DISPLAY_SELECTOR"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246622201953224057"
+     ,"Identification":{
+        "Name":"NATIVE_IR"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"IG"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"19246622501251224058"
+     ,"Identification":{
+        "Name":"NATIVE_MAP_REGION"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+  ]
+}

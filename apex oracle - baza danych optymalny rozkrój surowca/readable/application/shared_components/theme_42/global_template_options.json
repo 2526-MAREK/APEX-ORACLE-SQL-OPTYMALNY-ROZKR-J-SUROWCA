@@ -1,0 +1,1626 @@
+[
+  {
+    "id":"19246886166141224181"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"H1"
+     ,"Identifier":"HEADING_LEVEL_H1"
+     ,"Group":"Heading Level (19246885945457224181)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "js-headingLevel-1"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"H1"
+    }
+  }
+ ,{
+    "id":"19246886331293224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"H2"
+     ,"Identifier":"HEADING_LEVEL_H2"
+     ,"Group":"Heading Level (19246885945457224181)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "js-headingLevel-2"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"H2"
+    }
+  }
+ ,{
+    "id":"19246886534253224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"H3"
+     ,"Identifier":"HEADING_LEVEL_H3"
+     ,"Group":"Heading Level (19246885945457224181)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "js-headingLevel-3"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"H3"
+    }
+  }
+ ,{
+    "id":"19246886734917224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"H4"
+     ,"Identifier":"H4"
+     ,"Group":"Heading Level (19246885945457224181)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "js-headingLevel-4"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"H4"
+    }
+  }
+ ,{
+    "id":"19246886926144224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"H5"
+     ,"Identifier":"HEADING_LEVEL_H5"
+     ,"Group":"Heading Level (19246885945457224181)"
+     ,"Sequence":50
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "js-headingLevel-5"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"H5"
+    }
+  }
+ ,{
+    "id":"19246887122910224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"H6"
+     ,"Identifier":"HEADING_LEVEL_H6"
+     ,"Group":"Heading Level (19246885945457224181)"
+     ,"Sequence":60
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "js-headingLevel-6"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"H6"
+    }
+  }
+ ,{
+    "id":"19246887514311224182"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Large"
+     ,"Identifier":"FBM_LARGE"
+     ,"Group":"Bottom Margin (19246887337357224182)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large bottom margin for this field."
+    }
+  }
+ ,{
+    "id":"19246887920137224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Large"
+     ,"Identifier":"RBM_LARGE"
+     ,"Group":"Bottom Margin (19246887706758224182)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large bottom margin to the region."
+    }
+  }
+ ,{
+    "id":"19246888149205224182"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Medium"
+     ,"Identifier":"FBM_MEDIUM"
+     ,"Group":"Bottom Margin (19246887337357224182)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium bottom margin for this field."
+    }
+  }
+ ,{
+    "id":"19246888369573224182"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Medium"
+     ,"Identifier":"RBM_MEDIUM"
+     ,"Group":"Bottom Margin (19246887706758224182)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium bottom margin to the region."
+    }
+  }
+ ,{
+    "id":"19246888500166224182"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"None"
+     ,"Identifier":"FBM_NONE"
+     ,"Group":"Bottom Margin (19246887337357224182)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the bottom margin for this field."
+    }
+  }
+ ,{
+    "id":"19246888729435224183"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"None"
+     ,"Identifier":"RBM_NONE"
+     ,"Group":"Bottom Margin (19246887706758224182)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the bottom margin for this region."
+    }
+  }
+ ,{
+    "id":"19246888938974224183"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Small"
+     ,"Identifier":"FBM_SMALL"
+     ,"Group":"Bottom Margin (19246887337357224182)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small bottom margin for this field."
+    }
+  }
+ ,{
+    "id":"19246889109208224183"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Small"
+     ,"Identifier":"RBM_SMALL"
+     ,"Group":"Bottom Margin (19246887706758224182)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-bottom-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small bottom margin to the region."
+    }
+  }
+ ,{
+    "id":"19246889563961224183"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Large"
+     ,"Identifier":"FLM_LARGE"
+     ,"Group":"Left Margin (19246889369874224183)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large left margin for this field."
+    }
+  }
+ ,{
+    "id":"19246889914177224183"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Large"
+     ,"Identifier":"RLM_LARGE"
+     ,"Group":"Left Margin (19246889779392224183)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large right margin to the region."
+    }
+  }
+ ,{
+    "id":"19246890170841224183"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Medium"
+     ,"Identifier":"FLM_MEDIUM"
+     ,"Group":"Left Margin (19246889369874224183)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium left margin for this field."
+    }
+  }
+ ,{
+    "id":"19246890376652224183"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Medium"
+     ,"Identifier":"RLM_MEDIUM"
+     ,"Group":"Left Margin (19246889779392224183)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium right margin to the region."
+    }
+  }
+ ,{
+    "id":"19246890505709224183"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"None"
+     ,"Identifier":"FLM_NONE"
+     ,"Group":"Left Margin (19246889369874224183)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the left margin for this field."
+    }
+  }
+ ,{
+    "id":"19246890795072224183"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"None"
+     ,"Identifier":"RLM_NONE"
+     ,"Group":"Left Margin (19246889779392224183)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the left margin from the region."
+    }
+  }
+ ,{
+    "id":"19246890947918224183"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Small"
+     ,"Identifier":"FLM_SMALL"
+     ,"Group":"Left Margin (19246889369874224183)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small left margin for this field."
+    }
+  }
+ ,{
+    "id":"19246891108771224183"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Small"
+     ,"Identifier":"RLM_SMALL"
+     ,"Group":"Left Margin (19246889779392224183)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-left-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small left margin to the region."
+    }
+  }
+ ,{
+    "id":"19246891556015224184"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Large"
+     ,"Identifier":"FRM_LARGE"
+     ,"Group":"Right Margin (19246891336274224184)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large right margin for this field."
+    }
+  }
+ ,{
+    "id":"19246891900121224184"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Large"
+     ,"Identifier":"RRM_LARGE"
+     ,"Group":"Right Margin (19246891704736224184)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large right margin to the region."
+    }
+  }
+ ,{
+    "id":"19246892110819224184"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Medium"
+     ,"Identifier":"FRM_MEDIUM"
+     ,"Group":"Right Margin (19246891336274224184)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium right margin for this field."
+    }
+  }
+ ,{
+    "id":"19246892363658224184"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Medium"
+     ,"Identifier":"RRM_MEDIUM"
+     ,"Group":"Right Margin (19246891704736224184)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium right margin to the region."
+    }
+  }
+ ,{
+    "id":"19246892504538224184"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"None"
+     ,"Identifier":"FRM_NONE"
+     ,"Group":"Right Margin (19246891336274224184)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the right margin for this field."
+    }
+  }
+ ,{
+    "id":"19246892762535224184"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"None"
+     ,"Identifier":"RRM_NONE"
+     ,"Group":"Right Margin (19246891704736224184)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the right margin from the region."
+    }
+  }
+ ,{
+    "id":"19246892980387224184"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Small"
+     ,"Identifier":"FRM_SMALL"
+     ,"Group":"Right Margin (19246891336274224184)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small right margin for this field."
+    }
+  }
+ ,{
+    "id":"19246893187691224184"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Small"
+     ,"Identifier":"RRM_SMALL"
+     ,"Group":"Right Margin (19246891704736224184)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-right-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small right margin to the region."
+    }
+  }
+ ,{
+    "id":"19246893569854224184"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Large"
+     ,"Identifier":"FTM_LARGE"
+     ,"Group":"Top Margin (19246893398327224184)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large top margin for this field."
+    }
+  }
+ ,{
+    "id":"19246893933217224185"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Large"
+     ,"Identifier":"RTM_LARGE"
+     ,"Group":"Top Margin (19246893776148224185)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-lg"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a large top margin to the region."
+    }
+  }
+ ,{
+    "id":"19246894198162224185"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Medium"
+     ,"Identifier":"FTM_MEDIUM"
+     ,"Group":"Top Margin (19246893398327224184)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium top margin for this field."
+    }
+  }
+ ,{
+    "id":"19246894396442224185"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Medium"
+     ,"Identifier":"RTM_MEDIUM"
+     ,"Group":"Top Margin (19246893776148224185)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-md"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a medium top margin to the region."
+    }
+  }
+ ,{
+    "id":"19246894528571224185"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"None"
+     ,"Identifier":"FTM_NONE"
+     ,"Group":"Top Margin (19246893398327224184)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the top margin for this field."
+    }
+  }
+ ,{
+    "id":"19246894701872224185"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"None"
+     ,"Identifier":"RTM_NONE"
+     ,"Group":"Top Margin (19246893776148224185)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-none"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes the top margin for this region."
+    }
+  }
+ ,{
+    "id":"19246894932084224185"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Small"
+     ,"Identifier":"FTM_SMALL"
+     ,"Group":"Top Margin (19246893398327224184)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small top margin for this field."
+    }
+  }
+ ,{
+    "id":"19246895256999224185"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Small"
+     ,"Identifier":"RTM_SMALL"
+     ,"Group":"Top Margin (19246893776148224185)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "margin-top-sm"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Adds a small top margin to the region."
+    }
+  }
+ ,{
+    "id":"19246895697945224185"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Danger"
+     ,"Identifier":"DANGER"
+     ,"Group":"Type (19246895413463224185)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--danger"
+      ]
+    }
+  }
+ ,{
+    "id":"19246896033146224185"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Large"
+     ,"Identifier":"LARGEBOTTOMMARGIN"
+     ,"Group":"Spacing Bottom (19246895856330224185)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--gapBottom"
+      ]
+    }
+  }
+ ,{
+    "id":"19246896497339224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Large"
+     ,"Identifier":"LARGELEFTMARGIN"
+     ,"Group":"Spacing Left (19246896296598224186)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--gapLeft"
+      ]
+    }
+  }
+ ,{
+    "id":"19246896803667224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Large"
+     ,"Identifier":"LARGERIGHTMARGIN"
+     ,"Group":"Spacing Right (19246896611869224186)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--gapRight"
+      ]
+    }
+  }
+ ,{
+    "id":"19246897221506224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Large"
+     ,"Identifier":"LARGETOPMARGIN"
+     ,"Group":"Spacing Top (19246897096587224186)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--gapTop"
+      ]
+    }
+  }
+ ,{
+    "id":"19246897673801224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Large"
+     ,"Identifier":"LARGE"
+     ,"Group":"Size (19246897446236224186)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--large"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"A large button."
+    }
+  }
+ ,{
+    "id":"19246898050138224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Display as Link"
+     ,"Identifier":"DISPLAY_AS_LINK"
+     ,"Group":"Style (19246897895832224186)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--link"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"This option makes the button appear as a text link."
+    }
+  }
+ ,{
+    "id":"19246898260911224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Remove UI Decoration"
+     ,"Identifier":"NOUI"
+     ,"Group":"Style (19246897895832224186)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--noUI"
+      ]
+    }
+  }
+ ,{
+    "id":"19246898446807224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Small"
+     ,"Identifier":"SMALLBOTTOMMARGIN"
+     ,"Group":"Spacing Bottom (19246895856330224185)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--padBottom"
+      ]
+    }
+  }
+ ,{
+    "id":"19246898697400224186"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Small"
+     ,"Identifier":"SMALLLEFTMARGIN"
+     ,"Group":"Spacing Left (19246896296598224186)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--padLeft"
+      ]
+    }
+  }
+ ,{
+    "id":"19246898896220224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Small"
+     ,"Identifier":"SMALLRIGHTMARGIN"
+     ,"Group":"Spacing Right (19246896611869224186)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--padRight"
+      ]
+    }
+  }
+ ,{
+    "id":"19246899039222224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Small"
+     ,"Identifier":"SMALLTOPMARGIN"
+     ,"Group":"Spacing Top (19246897096587224186)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--padTop"
+      ]
+    }
+  }
+ ,{
+    "id":"19246899416480224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Inner Button"
+     ,"Identifier":"PILL"
+     ,"Group":"Button Set (19246899231142224187)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--pill"
+      ]
+    }
+  }
+ ,{
+    "id":"19246899699041224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Last Button"
+     ,"Identifier":"PILLEND"
+     ,"Group":"Button Set (19246899231142224187)"
+     ,"Sequence":30
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--pillEnd"
+      ]
+    }
+  }
+ ,{
+    "id":"19246899868480224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"First Button"
+     ,"Identifier":"PILLSTART"
+     ,"Group":"Button Set (19246899231142224187)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--pillStart"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Use this for the start of a pill button."
+    }
+  }
+ ,{
+    "id":"19246900048288224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Primary"
+     ,"Identifier":"PRIMARY"
+     ,"Group":"Type (19246895413463224185)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--primary"
+      ]
+    }
+  }
+ ,{
+    "id":"19246900212629224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Simple"
+     ,"Identifier":"SIMPLE"
+     ,"Group":"Style (19246897895832224186)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--simple"
+      ]
+    }
+  }
+ ,{
+    "id":"19246900437555224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Small"
+     ,"Identifier":"SMALL"
+     ,"Group":"Size (19246897446236224186)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--small"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"A small button."
+    }
+  }
+ ,{
+    "id":"19246900827320224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Stretch"
+     ,"Identifier":"STRETCH"
+     ,"Group":"Width (19246900671978224187)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--stretch"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Stretches button to fill container"
+    }
+  }
+ ,{
+    "id":"19246901035690224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Success"
+     ,"Identifier":"SUCCESS"
+     ,"Group":"Type (19246895413463224185)"
+     ,"Sequence":40
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--success"
+      ]
+    }
+  }
+ ,{
+    "id":"19246901299342224187"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Tiny"
+     ,"Identifier":"TINY"
+     ,"Group":"Size (19246897446236224186)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--tiny"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"A very small button."
+    }
+  }
+ ,{
+    "id":"19246901425920224188"
+   ,"Identification":{
+      "Template Type":"Button"
+     ,"Name":"Warning"
+     ,"Identifier":"WARNING"
+     ,"Group":"Type (19246895413463224185)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Button--warning"
+      ]
+    }
+  }
+ ,{
+    "id":"19246901656273224188"
+   ,"Identification":{
+      "Template Type":"Page"
+     ,"Name":"Deferred Page Rendering"
+     ,"Identifier":"DEFERRED_PAGE_RENDERING"
+     ,"Sequence":1
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-DeferredRendering"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Defer page rendering until all page components have finished loading."
+    }
+  }
+ ,{
+    "id":"19246902016063224188"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Show Form Labels Above"
+     ,"Identifier":"SHOWFORMLABELSABOVE"
+     ,"Group":"Label Position (19246901897107224188)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--labelsAbove"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Show form labels above input fields."
+    }
+  }
+ ,{
+    "id":"19246902488909224188"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Large"
+     ,"Identifier":"FORMSIZELARGE"
+     ,"Group":"Item Size (19246902295679224188)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--large"
+      ]
+    }
+  }
+ ,{
+    "id":"19246902892304224188"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Left"
+     ,"Identifier":"FORMLEFTLABELS"
+     ,"Group":"Label Alignment (19246902611712224188)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--leftLabels"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Align form labels to left."
+    }
+  }
+ ,{
+    "id":"19246903215658224188"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"None"
+     ,"Identifier":"FORMREMOVEPADDING"
+     ,"Group":"Item Spacing (19246903038691224188)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--noPadding"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes spacing between items."
+    }
+  }
+ ,{
+    "id":"19246903403629224189"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Slim"
+     ,"Identifier":"FORMSLIMPADDING"
+     ,"Group":"Item Spacing (19246903038691224188)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--slimPadding"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Reduces form item spacing."
+    }
+  }
+ ,{
+    "id":"19246903612825224189"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Standard"
+     ,"Identifier":"FORMSTANDARDPADDING"
+     ,"Group":"Item Spacing (19246903038691224188)"
+     ,"Sequence":5
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--standardPadding"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Uses the standard spacing between items."
+    }
+  }
+ ,{
+    "id":"19246904039512224189"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Stretch Form Fields"
+     ,"Identifier":"STRETCH_FORM_FIELDS"
+     ,"Group":"Item Width (19246903874430224189)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--stretchInputs"
+      ]
+    }
+  }
+ ,{
+    "id":"19246904274830224189"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"X Large"
+     ,"Identifier":"FORMSIZEXLARGE"
+     ,"Group":"Item Size (19246902295679224188)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form--xlarge"
+      ]
+    }
+  }
+ ,{
+    "id":"19246904669267224189"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Bold"
+     ,"Identifier":"DISPLAY_TEXT_STYLE_BOLD"
+     ,"Group":"Display Text Style (19246904485080224189)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--boldDisplay"
+      ]
+    }
+  }
+ ,{
+    "id":"19246905014779224189"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Large"
+     ,"Identifier":"LARGE_FIELD"
+     ,"Group":"Size (19246904845847224189)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--large"
+      ]
+    }
+  }
+ ,{
+    "id":"19246905209819224189"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Normal"
+     ,"Identifier":"DISPLAY_TEXT_STYLE_NORMAL"
+     ,"Group":"Display Text Style (19246904485080224189)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--normalDisplay"
+      ]
+    }
+  }
+ ,{
+    "id":"19246905624335224190"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Display as Block"
+     ,"Identifier":"POST_TEXT_BLOCK"
+     ,"Group":"Item Post Text (19246905462622224190)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--postTextBlock"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Displays the Item Post Text in a block style immediately after the item."
+    }
+  }
+ ,{
+    "id":"19246906002280224190"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Display as Block"
+     ,"Identifier":"PRE_TEXT_BLOCK"
+     ,"Group":"Item Pre Text (19246905850957224190)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--preTextBlock"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Displays the Item Pre Text in a block style immediately before the item."
+    }
+  }
+ ,{
+    "id":"19246906405043224190"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Display as Pill Button"
+     ,"Identifier":"DISPLAY_AS_PILL_BUTTON"
+     ,"Group":"Item Group Display (19246906248392224190)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--radioButtonGroup"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Displays the radio buttons to look like a button set \/ pill button.  Note that the the radio buttons must all be in the same row for this option to work."
+    }
+  }
+ ,{
+    "id":"19246906678423224190"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"Stretch Form Item"
+     ,"Identifier":"STRETCH_FORM_ITEM"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--stretchInputs"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Stretches the form item to fill its container."
+    }
+  }
+ ,{
+    "id":"19246906803295224190"
+   ,"Identification":{
+      "Template Type":"Item"
+     ,"Name":"X Large"
+     ,"Identifier":"X_LARGE_SIZE"
+     ,"Group":"Size (19246904845847224189)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Form-fieldContainer--xlarge"
+      ]
+    }
+  }
+ ,{
+    "id":"19246907276465224190"
+   ,"Identification":{
+      "Template Type":"Page"
+     ,"Name":"Remove Padding"
+     ,"Identifier":"REMOVE_PADDING"
+     ,"Group":"Content Padding (19246907080574224190)"
+     ,"Sequence":1
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-PageBody--noContentPadding"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"Removes padding from the content region."
+    }
+  }
+ ,{
+    "id":"19246907640207224190"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"Center"
+     ,"Identifier":"SORT_CENTER"
+     ,"Group":"Sort Order Alignment (19246907465709224190)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Region-orderBy--center"
+      ]
+    }
+  }
+ ,{
+    "id":"19246907815413224191"
+   ,"Identification":{
+      "Template Type":"Region"
+     ,"Name":"End"
+     ,"Identifier":"SORT_END"
+     ,"Group":"Sort Order Alignment (19246907465709224190)"
+     ,"Sequence":20
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Region-orderBy--end"
+      ]
+    }
+  }
+ ,{
+    "id":"19246908253402224191"
+   ,"Identification":{
+      "Template Type":"Report"
+     ,"Name":"Hide when all rows displayed"
+     ,"Identifier":"HIDE_WHEN_ALL_ROWS_DISPLAYED"
+     ,"Group":"Pagination Display (19246908075126224191)"
+     ,"Sequence":10
+    }
+   ,"Settings":{
+      "Advanced":false
+    }
+   ,"Appearance":{
+      "CSS Classes":[
+        "t-Report--hideNoPagination"
+      ]
+    }
+   ,"Help":{
+      "Help Text":"This option will hide the pagination when all rows are displayed."
+    }
+  }
+]
